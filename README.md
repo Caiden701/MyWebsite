@@ -29,97 +29,10 @@ Now that we have our initial setup ready let’s set up our folders to store our
 •	Create and rename the second text file to: styles.css
 
 Step 3: Writing HTML 
-Copy and paste the code below into the “index.html” text file and then save the file as .html so this file appears in the MyWebsite folder: 
+Copy and paste the code from index.html into the “index.html” text file and then save the file as .html 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Website</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Basic Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>This is the homepage of my basic website.</p>
-        </section>
-        <section id="about">
-            <h2>About</h2>
-            <p>This section contains information about the website.</p>
-        </section>
-        <section id="services">
-            <h2>Services</h2>
-            <p>This section describes the services offered.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>This section contains contact information.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 My Basic Website</p>
-    </footer>
-</body>
-</html>
 Step 4: Writing CSS 
-Copy and paste the code below into the “styles.css” file and then save the file as .css so this file appears in the MyWebsite folder: 
- 
-/* Basic reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-main {
-    margin: 20px 0;
-}
-section {
-    background-color: #fff;
-    margin: 10px 0;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-footer {
-    text-align: center;
-    margin-top: 20px;
+Copy and paste the code below into the styles.css into “styles.css” text file and then save the file as .css 
 
 Step 5: Open Your Website locally
 Now that all our files are set up and loaded with the correct HTML and CSS code, we can now click the Microsoft edge file to see our website locally, without being connected to the internet, on our computer. 
